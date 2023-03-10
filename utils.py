@@ -397,11 +397,11 @@ async def get_shortlink(link):
                     return data['shortlink']
                 else:
                     logger.error(f"Error: {data['message']}")
-                    return f'https://api.omegalinks.in/directLink?token={URL_SHORTNER_WEBSITE_API}&link={link}'
+                    return f'https://api.omegalinks.in/directLink?token={URL_SHORTNER_WEBSITE_API}&Url={link}'
 
     except Exception as e:
         logger.error(e)
-        return f'https://api.omegalinks.in/directLink?token={URL_SHORTNER_WEBSITE_API}&link={link}'
+        return f'https://api.omegalinks.in/directLink?token={URL_SHORTNER_WEBSITE_API}&Url={link}'
 # _______________________________________________________________________________________________________________ #
 # __________________________________________Credit_______________________________________________________________ #
 # _______________________________________LazyDeveloper___________________________________________________________ #
