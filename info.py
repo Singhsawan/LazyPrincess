@@ -77,7 +77,7 @@ URL_MODE = is_enabled((environ.get("URL_MODE")), True)
 # Use True false in url mode => Set value true if you want shortlinks - else - use value False ----- !
 
 # URL Shortener
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'api.omegalinks.in/shortLink')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'omegalinks.in')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'bf56e643ddbd84748b7567d820d8c51b44f0bca7')
 
 # Auto Delete For Group Message (Self Delete) #
